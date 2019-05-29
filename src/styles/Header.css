@@ -1,0 +1,36 @@
+.header-container {
+  max-width: 100%;
+}
+
+.name {
+  position: fixed;
+  top: 0;
+  left: 2.5%;
+}
+
+.header-button {
+  position: fixed;
+  top: 2.5%;
+  right: 2.5%;
+}
+
+.main-menu {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-menu ul li {
+  display: flex;
+  margin: 20px;
+}
+
+.main-menu ul li:first-child {
+  margin-left: 0;
+}

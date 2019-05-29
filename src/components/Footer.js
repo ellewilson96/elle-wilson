@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import '../App.css'
+import '../styles/Footer.css'
+import profile from '../img/profile.png'
+import { Link } from 'react-router-dom'
 
   class Footer extends Component {
 
   render() {
     return(
-      <div id="root">
-      Footer
-    </div>
+      <div className="footer-container">
+      <div className="profile">
+      <img src={profile} className="profile" alt="me" />
+      </div>
+      <div className="social-links">
+        <Link to="https://www.linkedin.com/in/eleanormwilson/">LinkedIn | </Link>
+        <Link to="https://www.instagram.com/elle_wilson">Instagram | </Link>
+        <Link to="https://www.github.com/ellewilson96/">Github</Link>
+
+      </div>
+      </div>
   )}
 }
 
 export default Footer;
-// <footer class="footer-section text-center">
-//   <div class="container">
-//     <div class="profile">
-//       <img src="./img/profile.png">
-//     </div>
-//     <div class="social-links">
-//       <a href="https://www.linkedin.com/in/eleanormwilson/"><span class="fa fa-linkedin"></span></a>
-//       <a href="https://www.instagram.com/elle_wilson/"><span class="fa fa-instagram"></span></a>
-//       <a href="https://www.github.com/ellewilson96/"><span class="fa fa-github"></span></a>
-//     </div>
-//   </div>
-// </footer>
