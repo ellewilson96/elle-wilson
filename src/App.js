@@ -11,6 +11,7 @@ import ProjectContainer from './containers/ProjectContainer';
 import Contact from './components/Contact';
 import About from './components/About';
 
+
 class App extends Component {
   render() {
     const App = () => (

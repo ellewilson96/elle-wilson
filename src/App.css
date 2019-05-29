@@ -1,4 +1,8 @@
-.container {
+html {
+  background: rgb(84,191,193);
+  background: linear-gradient(90deg, rgba(84,191,193,1) 0%, rgba(251,208,114,0.9934348739495799) 100%);}
+
+  .container {
   display: inline-flex;
   max-width: 50%;
   align-items: center;
@@ -13,7 +17,7 @@
    width: fit-content;
     margin: auto;
     font-size: 2em;
-    border-bottom: 2px solid #e973a7;
+    border-bottom: 2px solid #f9ba30;
     padding-bottom: 5px;
 }
 

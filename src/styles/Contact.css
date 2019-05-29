@@ -15,7 +15,7 @@
   color: #FFFFFF;
   background-color: transparent;
   border: none;
-  border-bottom: 0.5px solid #e973a7;
+  border-bottom: 0.5px solid #f9ba30;
   padding: 10%;
   transition: 0.4s;
 }
@@ -44,5 +44,5 @@
 }
 
 .input-button input:hover {
-  box-shadow: 2px 2px 8px 2px #e973a7;
+  box-shadow: 2px 2px 8px 2px #f9ba30;
 }

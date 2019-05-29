@@ -18,3 +18,7 @@
 .site-button button:first-child {
   margin-right: 10%;
 }
+
+.site-button button:hover {
+  background-color: #f9ba30;
+}
