@@ -5,6 +5,9 @@
   justify-content: center;
 }
 
+.container:hover {
+  cursor: default;
+}
 
 .title h2 {
    width: fit-content;
