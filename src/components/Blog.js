@@ -5,9 +5,8 @@ import '../App.css'
 
   render() {
     return(
-      <div id="root">
-      Blog
-    </div>
+      <div className="blog">
+      </div>
   )}
 }
 

@@ -5,8 +5,7 @@ import '../App.css'
 
   render() {
     return(
-      <div id="root">
-      Art
+    <div className="art">
     </div>
   )}
 }
@@ -23,9 +22,7 @@ export default Art;
 	// 		</div>
   //     <div class="row">
   //       <div class="col-lg-6 offset-lg-3 contect-tect">
-  //         <p>Elle has been drawing and painting for almost ten years. From oil paint, to charcoal, to gouache, Elle enjoys creating art
-  //            with a variety of mediums and techniques.
-  //         </p>
+  //
   //       </div>
   //     </div>
 	// 	</div>

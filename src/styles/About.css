@@ -10,10 +10,15 @@
   max-width: 20%;
 }
 
-.about-content p {
-
+.about-content {
+  padding-top: 7%;
 }
 
+.about-chat h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #e973a7;
+  padding-bottom: 5px;
+}
 
 .sign img {
   filter: brightness(0) invert(1);

@@ -8,6 +8,9 @@ import sign from '../img/sign.png'
   render() {
     return(
       <div className="about-container">
+      <div className="title">
+        <h2>About</h2>
+      </div>
         <div className="about-content">
       <p>Elle Wilson has been working in the fashion industry for over 6 years. Originally from England,
           Elle relocated with her family to New Jersey in 2004 before moving to New York City in 2014 to attend the
