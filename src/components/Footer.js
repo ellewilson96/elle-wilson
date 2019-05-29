@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Footer.css'
 import profile from '../img/profile.png'
-import { Link } from 'react-router-dom'
 
   class Footer extends Component {
 
@@ -13,9 +12,9 @@ import { Link } from 'react-router-dom'
       </div>
       <div className="social-links">
       <ul>
-        <li><Link to="https://www.linkedin.com/in/eleanormwilson/">LinkedIn </Link></li>
-        <li><Link to="https://www.instagram.com/elle_wilson">Instagram </Link></li>
-        <li><Link to="https://www.github.com/ellewilson96/">Github</Link></li>
+        <li><a href="https://www.linkedin.com/in/eleanormwilson">LinkedIn </a></li>
+        <li><a href="https://www.instagram.com/elle_wilson">Instagram </a></li>
+        <li><a href="https://www.github.com/ellewilson96">Github</a></li>
       </ul>
       </div>
       </div>

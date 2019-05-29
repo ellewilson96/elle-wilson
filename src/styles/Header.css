@@ -16,12 +16,12 @@
   font-size: 6em;
   writing-mode: tb-rl;
   transform: rotate(-360deg);
-  background-color: #4593f0;
+  background-color: #FFFFFF;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       background-clip: text;
       color: transparent;
-      text-shadow: rgba(37,83,136,0.5) 0px 3px 3px;
+      text-shadow: rgba(216,125,210,0.5) 0px 3px 3px;
 }
 
 .header-button {
