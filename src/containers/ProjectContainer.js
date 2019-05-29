@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css'
 
-  class BlogContainer extends Component {
+  class ProjectContainer extends Component {
 
   render() {
     return(
       <div id="root">
-      BlogContainer
+      ProjectContainer
     </div>
   )}
 }
 
-export default BlogContainer;
+export default ProjectContainer;
