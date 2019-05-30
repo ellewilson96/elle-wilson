@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: local('CaviarDreams'), url('./fonts/CaviarDreams.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
   max-width: 100%;
   margin: 0;
@@ -5,7 +12,6 @@ body {
   color: #FFFFFF;
   font-family: 'Caviar Dreams', sans-serif;
   text-align: center;
-  
   }
 
 a {

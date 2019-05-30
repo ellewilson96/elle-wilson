@@ -6,13 +6,6 @@ html {
   background: rgb(84,191,193);
 }
 
-@font-face {
-	font-family: 'Caviar Dreams';
-	src: url('/styles/CaviarDreams.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
 .container {
   display: inline-flex;
   max-width: 85%;
