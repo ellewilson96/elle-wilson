@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Caviar Dreams';
-	src: local('CaviarDreams'), url('./fonts/CaviarDreams.ttf') format('ttf');
+	src: url('fonts/CaviarDreams.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
