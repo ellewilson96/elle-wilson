@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
       <div className="home-buttons">
       <div className="site-button">
         <button>
-        <Link to="/">Projects</Link>
+        <Link to="/projects">Projects</Link>
         </button>
         <div className="site-button">
           <button>

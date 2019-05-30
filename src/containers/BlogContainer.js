@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import '../App.css'
+import Blog from '../components/Blog.js'
+import '../styles/Blog.css'
+
 
   class BlogContainer extends Component {
 
@@ -10,7 +12,8 @@ import '../App.css'
         <h2>Latest Posts</h2>
       </div>
       <div className="content">
-      <p>Posts will be loaded via local database</p>
+      <p></p>
+      <Blog />
       </div>
     </div>
   )}

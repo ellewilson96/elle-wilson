@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/About.css'
 import profile from '../img/profile.png'
+import sign from '../img/sign.png'
 
   class About extends Component {
 
@@ -22,9 +23,14 @@ import profile from '../img/profile.png'
             Full-Stack Software Engineering online immersive. While committing full-time hours every week as both a supervisor and a student,
             Elle worked remotely to complete the program in January of 2019.</p>
           </div>
+        <div className="signature">
           <div className="profile-image">
           <img src={profile} alt="me" />
           </div>
+          <div className="sign">
+          <img src={sign} alt="elle" />
+          </div>
+        </div>
     </div>
   )}
 }

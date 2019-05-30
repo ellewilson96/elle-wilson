@@ -16,13 +16,29 @@
   padding-bottom: 5px;
 }
 
+.sign {
+  margin: auto;
+  vertical-align: middle;
+}
+
 .sign img {
   filter: brightness(0) invert(1);
 }
 
+.signature {
+  display: flex;
+  flex-direction: row;
+}
+
 .profile-image img {
-  max-width: 10%;
-  min-width: 6%;
+  opacity: 0.8;
+  margin-top: 5%;
+  width: 200px;
   border-radius: 10px;
   border: 1px solid #f9ba30;
+  transition: 0.5s;
+}
+
+.profile-image img:hover {
+  opacity: 1.0;
 }
