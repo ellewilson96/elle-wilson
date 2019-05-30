@@ -4,7 +4,7 @@ html {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   max-width: 85%;
   align-items: center;
   justify-content: center;
@@ -22,17 +22,15 @@ html {
     padding-bottom: 5px;
 }
 
-.content {
-  padding-top: 7%;
-}
 
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .container {
-      padding-top: 20%;
-      max-width: 45%;
+      padding-top: 5%;
+      max-height: 60%;
       z-index: 1;
+      -webkit-overflow-scrolling: touch
     }
   }
