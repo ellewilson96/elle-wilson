@@ -6,21 +6,23 @@
   justify-content: center;
 }
 
-
-.about-photo img {
-  max-width: 20%;
-}
-
 .about-content {
   padding-top: 2%;
 }
 
 .about-chat h2 {
   font-size: 2em;
-  border-bottom: 2px solid #e973a7;
+  border-bottom: 2px solid #f9ba30;
   padding-bottom: 5px;
 }
 
 .sign img {
   filter: brightness(0) invert(1);
+}
+
+.profile-image img {
+  max-width: 10%;
+  min-width: 6%;
+  border-radius: 10px;
+  border: 1px solid #f9ba30;
 }
