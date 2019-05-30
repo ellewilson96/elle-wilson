@@ -1,8 +1,10 @@
 @font-face {
-	font-family: 'Caviar Dreams';
-	src: url('fonts/CaviarDreams.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'caviar_dreamsregular';
+    src: url('./fonts/caviardreams-webfont.woff2') format('woff2'),
+         url('./fonts/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
@@ -10,14 +12,14 @@ body {
   margin: 0;
   padding: 0;
   color: #FFFFFF;
-  font-family: 'Caviar Dreams', sans-serif;
+  font-family: 'caviar_dreamsregular', sans-serif;
   text-align: center;
   }
 
 a {
   color: #FFFFFF;
   text-decoration: none;
-  font-family: 'Caviar Dreams', sans-serif;
+  font-family: 'caviar_dreamsregular', sans-serif;
   transition: 0.4s;
   cursor: default;
 
