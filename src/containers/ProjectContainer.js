@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css'
+import Project from '../components/Project.js'
+import '../styles/Project.css'
 
   class ProjectContainer extends Component {
 
@@ -10,7 +11,7 @@ import '../App.css'
           <h2>Projects</h2>
         </div>
         <div className="content">
-        <p>Projects will be loaded via local database</p>
+        <Project />
         </div>
       </div>
     )}

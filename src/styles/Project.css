@@ -1,0 +1,24 @@
+.portfolio {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.project-container {
+
+}
+
+.project {
+  padding: 5%;
+}
+
+.project img {
+  max-width: 100%;
+  box-shadow: 5px 6px 10px #f9ba30;
+}
+
+
+.project a:hover {
+  cursor: pointer;
+}
