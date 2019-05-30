@@ -32,6 +32,7 @@ html {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .container {
-      padding-top: 10%;
+      padding-top: 15%;
+      max-width: 80%;
     }
   }
