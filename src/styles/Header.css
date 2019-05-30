@@ -60,34 +60,6 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    .mobile-menu-toggle {
-      text-align: left;
-      position: absolute;
-      bottom: 2.5%;
-      left: 2.5%;
-    }
-
-    .mobile-menu-toggle img {
-      max-width: 8%;
-    }
-
-    .main-menu ul {
-     display: flex;
-     flex-direction: column;
-     padding: 0;
-     position: absolute;
-     bottom: 2.5%;
-     left: 1.5%;
-     font-size: 0.8em;
-     color: #333;
-    }
-
-    .main-menu ul li {
-      display: flex;
-      padding: 0;
-      margin: 20%;
-    }
-
     .name h2 {
       font-size: 3em;
     }
