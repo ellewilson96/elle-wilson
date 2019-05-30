@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import '../styles/Header.css'
+import icon from '../img/icon.png'
 
   class Header extends Component {
 
@@ -15,6 +16,10 @@ import '../styles/Header.css'
             <Link to="/contact">Get in Touch</Link>
               </button>
           </div>
+          <div className="mobile-menu-toggle" onClick={this.handleClick}>
+            <img src={icon} alt="nav" />
+          </div>
+          <div className={this.props.shouldHide ? 'hidden' : ''}>
           <div className="main-menu">
               <nav>
                 <ul>
@@ -26,6 +31,7 @@ import '../styles/Header.css'
                   <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
               </nav>
+              </div>
             </div>
       </div>
   )}

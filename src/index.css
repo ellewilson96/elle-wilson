@@ -1,5 +1,7 @@
 body {
+  max-width: 100%;
   margin: 0;
+  padding: 0;
   color: #FFFFFF;
   font-family: 'Caviar Dreams', sans-serif;
   text-align: center;
