@@ -30,3 +30,13 @@
   border-radius: 20px;
   padding: 10px;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .footer-links {
+      font-size: 0.8em;
+    }
+  }
