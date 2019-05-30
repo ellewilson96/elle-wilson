@@ -33,6 +33,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 2) {
     .container {
       padding-top: 15%;
-      max-width: 80%;
+      max-width: 50%;
+      z-index: 1;
     }
   }
