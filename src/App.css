@@ -1,12 +1,11 @@
 html {
   background: rgb(84,191,193);
-  background: linear-gradient(90deg, rgba(84,191,193,1) 0%, rgba(251,208,114,0.9934348739495799) 100%);
   max-width: 100%;
 }
 
-  .container {
+.container {
   display: inline-flex;
-  max-width: 50%;
+  max-width: 85%;
   align-items: center;
   justify-content: center;
 }
@@ -16,7 +15,7 @@ html {
 }
 
 .title h2 {
-   width: fit-content;
+    width: fit-content;
     margin: auto;
     font-size: 2em;
     border-bottom: 2px solid #f9ba30;

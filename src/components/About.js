@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/About.css'
-import sign from '../img/sign.png'
 
 
   class About extends Component {
@@ -22,9 +21,6 @@ import sign from '../img/sign.png'
           She began researching educational programs and enrolled in The Flatiron School's
             Full-Stack Software Engineering online immersive. While committing full-time hours every week as both a supervisor and a student,
             Elle worked remotely to complete the program in January of 2019.</p>
-          </div>
-        <div className="signature">
-            <img src={sign} alt="sign" />
           </div>
     </div>
   )}
