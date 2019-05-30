@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css'
+import '../styles/Art.css'
+import Art from '../components/Art.js'
 
   class ArtContainer extends Component {
 
@@ -13,7 +14,7 @@ import '../App.css'
       <p>Elle has been drawing and painting for almost ten years. From oil paint, to charcoal, to gouache, Elle enjoys creating art
                   with a variety of mediums and techniques.
         </p>
-        <p>Artwork will be loaded via local database</p>
+        <Art />
       </div>
     </div>
   )}

@@ -1,0 +1,19 @@
+.art-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.piece-container {
+
+}
+
+.artwork {
+  padding: 5%;
+}
+
+.artwork img {
+  max-width: 100%;
+  box-shadow: 5px 6px 10px #f9ba30;
+}
