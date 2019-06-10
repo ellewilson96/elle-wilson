@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     const App = () => (
       <div>
-      <BrowserRouter>
+      <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
       <div>
       <Header />
       <div className="container">
@@ -39,7 +39,7 @@ class App extends Component {
       <Switch>
       <App />
       </Switch>
-      </BrowserRouter>
+    </BrowserRouter>
     )
   }
 }

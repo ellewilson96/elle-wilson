@@ -2,10 +2,13 @@
 /* blog container component divs */
 
 .blog-container {
-  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   overflow: scroll;
+  margin-bottom: 15%;
 }
 
 /* blog component divs */

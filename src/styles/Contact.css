@@ -1,5 +1,12 @@
+
+.contact-container {
+  position: absolute;
+  top: 25%;
+  width: 95%;
+}
+
 .contact-form {
-  width: 100%;
+  width: 90%;
   padding-top: 5%;
   color: #FFFFFF;
   display: flex;

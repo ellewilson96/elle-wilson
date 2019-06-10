@@ -2,7 +2,9 @@
 /* project container component divs */
 
 .portfolio-container {
-  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   overflow: scroll;
@@ -19,7 +21,7 @@
 }
 
 .project img {
-  max-width: 100%;
+  max-width: 90%;
   box-shadow: 5px 6px 10px #f9ba30;
 }
 
