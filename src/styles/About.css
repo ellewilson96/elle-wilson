@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   overflow: scroll;
-  margin-bottom: 30%;
+  padding-bottom: 30%;
 }
 
 .about-content {
