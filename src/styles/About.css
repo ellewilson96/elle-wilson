@@ -1,19 +1,33 @@
 .about-container {
-  max-width: 90%;
+  position: absolute;
+  top: 25%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: scroll;
+  margin-bottom: 10%;
 }
 
 .about-content {
-  padding-top: 2%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-.about-chat h2 {
-  font-size: 2em;
-  border-bottom: 2px solid #f9ba30;
-  padding-bottom: 5px;
+.about-content img {
+  border-radius: 10px;
+  max-width: 95%;
+  border-bottom: 1px solid #f9ba30;
+  position: relative;
+}
+
+.about-container .title {
+  margin-bottom: 10px;
 }
 
 .sign img {
@@ -21,7 +35,8 @@
 }
 
 .profile-image img {
-  max-width: 20%;
+  margin-top: 5px;
+  max-width: 15%;
   opacity: 0.8;
   border-radius: 10px;
   border: 1px solid #f9ba30;

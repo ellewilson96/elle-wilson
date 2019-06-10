@@ -1,5 +1,8 @@
 .header-container {
-  max-width: 100%;
+  position: fixed;
+  width: 100%;
+  background: rgb(84,191,193);
+  z-index: 1;
 }
 
 .mobile-menu-toggle {
@@ -47,7 +50,8 @@ nav {
 .main-menu ul li {
   display: flex;
   align-items: center;
-  margin: 3%;
+  margin-right: 3%;
+  margin-bottom: 1%;
 }
 
 .main-menu ul li a {
