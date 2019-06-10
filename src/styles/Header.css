@@ -52,8 +52,12 @@ nav {
 .main-menu ul li {
   display: flex;
   align-items: center;
-  margin-right: 3%;
+  margin-right: 7%;
   margin-bottom: 1%;
+}
+
+.main-menu ul li:last-child {
+  margin-right: 0;
 }
 
 .main-menu ul li a {
