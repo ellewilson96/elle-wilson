@@ -27,12 +27,12 @@ html {
     padding-bottom: 5px;
 }
 
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .container {
-      -webkit-overflow-scrolling: touch;
-    }
+@media (max-width: 750px) {
+  .container {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    overflow: scroll;
   }
+
+}
