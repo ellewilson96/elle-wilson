@@ -34,8 +34,9 @@ html {
   and (-webkit-min-device-pixel-ratio: 2) {
     .container {
       padding-top: 5%;
-      max-height: 60%;
-      z-index: 2;
+      max-width: 95%;
+      overflow: scroll;
+      z-index: 1;
       -webkit-overflow-scrolling: touch;
     }
   }
