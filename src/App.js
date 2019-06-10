@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     const App = () => (
       <div>
-      <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
+      <BrowserRouter>
       <div>
       <Header />
       <div className="container">
