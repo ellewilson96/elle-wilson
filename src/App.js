@@ -9,7 +9,6 @@ import BlogContainer from './containers/BlogContainer';
 import ArtContainer from './containers/ArtContainer';
 import ProjectContainer from './containers/ProjectContainer';
 import Contact from './components/Contact';
-import About from './components/About';
 
 class App extends Component {
   render() {
@@ -25,7 +24,6 @@ class App extends Component {
       <Route path="/art" component={ArtContainer} />
       <Route path="/projects" component={ProjectContainer} />
       <Route path="/contact" component={Contact} />
-      <Route path="/about" component={About} />
       </Switch>
       </div>
       <Footer />

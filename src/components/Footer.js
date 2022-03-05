@@ -15,7 +15,6 @@ import '../styles/Footer.css';
       <div className="social-links">
       <ul>
         <li><a href="https://www.linkedin.com/in/eleanormwilson">LinkedIn </a></li>
-        <li><a href="https://www.instagram.com/elle_wilson">Instagram </a></li>
         <li><a href="https://www.github.com/ellewilson96">Github</a></li>
       </ul>
       </div>

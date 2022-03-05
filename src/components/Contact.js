@@ -10,9 +10,6 @@ import '../styles/Contact.css'
           <h2>Let's chat</h2>
         </div>
         <div className="contact-intro">
-    			<p>From solutions consulting to mastering front-end web frameworks, Elle is dedicated to non-stop learning.
-    					She is a self-starter, bringing innovative ideas and an optimistic attitude to each and every work experience.
-    			</p>
         </div>
       <div className="contact-form">
           <form action="https://formspree.io/contact@ellewilson.nyc" method="POST">
